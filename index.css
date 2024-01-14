@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html,
+body {
+  background: #1abc9c;
+}
+.Container {
+  position: relative;
+  top: 100px;
+  left: 120px;
+  max-width: 350px;
+}
+.wrapper {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  top: 50px;
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.wrapper .title {
+  position: relative;
+  height: 60px;
+  margin-bottom: 10px;
+  background-color: #16a085;
+  border: 2px 2px 0 0;
+  border-radius: 2px;
+  color: #fff;
+}
+.wrapper .title span {
+  position: relative;
+  left: 5px;
+  top: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  left: 100px;
+}
+.wrapper .row {
+  position: relative;
+  left: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.wrapper .row input {
+  border: 1px light black;
+  position: relative;
+}
+.wrapper .row input:hover {
+  border: 2px solid #16a085;
+}
+i {
+  height: 100%;
+  text-align: center;
+  background-color: #16a085;
+  width: 20px;
+  color: #fff;
+  border: 1px solid #16a085;
+  border-radius: 1px;
+}
+.wrapper .row a {
+  color: #16a085;
+  position: relative;
+}
+
+.wrapper .row a:hover {
+  text-decoration: underline;
+}
+.ButtonRow {
+  position: relative;
+  background-color: #16a085;
+  border-radius: 2px;
+}
+.button {
+  font-size: 16px;
+  background-color: #16a085;
+  position: relative;
+  left: 150px;
+  border: none;
+  color: #fff;
+}
+.button:hover {
+  cursor: pointer;
+}
